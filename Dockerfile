@@ -9,5 +9,5 @@ RUN apk add --no-cache ca-certificates tzdata
 WORKDIR /app
 COPY --from=builder /app/hello /app/hello
 ENV PORT=3000
-EXPOSE 3000
+EXPOSE 1337
 CMD ["/app/hello"]
