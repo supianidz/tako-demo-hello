@@ -61,8 +61,6 @@ func main() {
     <p>This service was deployed automatically using TAKO Control Plane.</p>
     <div class="info">
       <div><span>Status:</span> <span>ok</span></div>
-      <div><span>Container Host:</span> <span>%s</span></div>
-      <div><span>Port:</span> <span>%s</span></div>
     </div>
   </div>
 </body>
