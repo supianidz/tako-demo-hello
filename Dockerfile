@@ -8,6 +8,6 @@ FROM alpine:3.20
 RUN apk add --no-cache ca-certificates tzdata
 WORKDIR /app
 COPY --from=builder /app/hello /app/hello
-ENV PORT=3000
+ENV PORT=1337
 EXPOSE 1337
 CMD ["/app/hello"]
