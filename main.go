@@ -57,7 +57,7 @@ func main() {
 <body>
   <div class="card">
     <div class="badge"><span class="dot"></span> Online & Serving</div>
-    <h1>Hello World from TAKO v3.1! 🐙</h1>
+    <h1>Hello World from TAKO v3.2! 🐙</h1>
     <p>This service was deployed automatically using TAKO Control Plane.</p>
     <div class="info">
       <div><span>Status:</span> <span>ok</span></div>
